@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif; /* Set font for the body */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+.my-link {
+    color: #1a73e8; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    font-size: 18px; /* Set font size */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color change */
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Change color on hover */
+.my-link:hover {
+    color: white; /* Change text color on hover */
+    background-color: #1a73e8; /* Change background color on hover */
+}
+
+/* Change color when visited */
+.my-link:visited {
+    color: #00FFFF; /* Change color for visited links */
+}
+
+/* Change color when active */
+.my-link:active {
+    color: #dc3545; /* Change color when the link is clicke
